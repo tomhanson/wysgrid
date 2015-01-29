@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e72177e3-64d2-4143-9670-bea72783723f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\work\Desktop\wysgrid\components\grid-dxs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\work\Desktop\wysgrid\wysgrid.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/containers.less" afterPath="$PROJECT_DIR$/components/containers.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/grid-constants.css" afterPath="$PROJECT_DIR$/components/grid-constants.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/grid-constants.less" afterPath="$PROJECT_DIR$/components/grid-constants.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/grid-lg.less" afterPath="$PROJECT_DIR$/components/grid-lg.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/grid-md.less" afterPath="$PROJECT_DIR$/components/grid-md.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/grid-sm.less" afterPath="$PROJECT_DIR$/components/grid-sm.less" />
@@ -14,7 +13,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/variables.css" afterPath="$PROJECT_DIR$/components/variables.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/variables.less" afterPath="$PROJECT_DIR$/components/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wysgrid.less" afterPath="$PROJECT_DIR$/wysgrid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wysgrid.css" afterPath="$PROJECT_DIR$/wysgrid.css" />
     </list>
     <ignored path="wysgrid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +38,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="variables.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039719626" vertical-offset="0" max-vertical-offset="856">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="containers.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/containers.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67346936" vertical-offset="0" max-vertical-offset="833">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wysgrid.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wysgrid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="215" selection-start-line="0" selection-start-column="215" selection-end-line="0" selection-end-column="215" />
               <folding />
             </state>
           </provider>
@@ -59,16 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wysgrid.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wysgrid.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15028">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -77,16 +86,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wysgrid.css" />
         <option value="$PROJECT_DIR$/components/containers.less" />
-        <option value="$PROJECT_DIR$/components/grid-constants.less" />
-        <option value="$PROJECT_DIR$/components/grid-md.less" />
-        <option value="$PROJECT_DIR$/components/grid-sm.less" />
-        <option value="$PROJECT_DIR$/components/grid-xs.less" />
-        <option value="$PROJECT_DIR$/components/grid-lg.less" />
-        <option value="$PROJECT_DIR$/components/grid-xl.less" />
         <option value="$PROJECT_DIR$/wysgrid.less" />
         <option value="$PROJECT_DIR$/components/variables.less" />
+        <option value="$PROJECT_DIR$/components/grid-xs.less" />
+        <option value="$PROJECT_DIR$/components/grid-constants.less" />
+        <option value="$PROJECT_DIR$/components/grid-xl.less" />
+        <option value="$PROJECT_DIR$/components/grid-lg.less" />
+        <option value="$PROJECT_DIR$/components/grid-md.less" />
+        <option value="$PROJECT_DIR$/components/grid-sm.less" />
+        <option value="$PROJECT_DIR$/wysgrid.css" />
       </list>
     </option>
   </component>
@@ -248,7 +257,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359275" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.025274726" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.025274726" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -280,14 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/containers.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35818475" vertical-offset="0" max-vertical-offset="748">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/grid-constants.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
@@ -298,48 +299,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/grid-constants.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10083037" vertical-offset="0" max-vertical-offset="843">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/grid-lg.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-100.03846" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/grid-xl.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.122449" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/grid-sm.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020408163" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="843">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/grid-xs.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2686">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5630841" vertical-offset="1762" max-vertical-offset="2686">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid-xl.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9867947" vertical-offset="1796" max-vertical-offset="2720">
+          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid-lg.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93637455" vertical-offset="1838" max-vertical-offset="2720">
+          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/grid-md.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.9591837" vertical-offset="1819" max-vertical-offset="2720">
+          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid-sm.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9591837" vertical-offset="1819" max-vertical-offset="2720">
+          <caret line="154" column="1" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -352,18 +353,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wysgrid.css">
+    <entry file="file://$PROJECT_DIR$/components/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15028">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/variables.less">
+    <entry file="file://$PROJECT_DIR$/wysgrid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039719626" vertical-offset="0" max-vertical-offset="856">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="215" selection-start-line="0" selection-start-column="215" selection-end-line="0" selection-end-column="215" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/containers.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67346936" vertical-offset="0" max-vertical-offset="833">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>

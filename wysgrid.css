@@ -1,7 +1,7 @@
 /* Screen sizes */
 /* Gutter sizes */
-/* Container widths */
 /*Container Size is determined from variables with a gutter given based on the gutter variable */
+/* Container widths */
 .container {
   margin-left: auto;
   margin-right: auto;

@@ -1,4 +1,11 @@
 /*Container Size is determined from variables with a gutter given based on the gutter variable */
+/* Container widths */
+
+@sm-container : (@sm-screen - @gutter);
+@md-container : (@md-screen - @gutter);
+@lg-container : (@lg-screen - @gutter);
+@xl-container : (@xl-screen - @gutter);
+
 .container {
   margin-left: auto;
   margin-right: auto;

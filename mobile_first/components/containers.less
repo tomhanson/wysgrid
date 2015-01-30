@@ -1,0 +1,47 @@
+/*Container Size is determined from variables with a gutter given based on the gutter variable */
+/* Container widths */
+
+@sm-container : (@sm-screen - @gutter);
+@md-container : (@md-screen - @gutter);
+@lg-container : (@lg-screen - @gutter);
+@xl-container : (@xl-screen - @gutter);
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: @sm-screen) {
+  .container {
+    width: @sm-container;
+  }
+}
+@media (min-width: @md-screen) {
+  .container {
+    width: @md-container;
+  }
+}
+@media (min-width: @lg-screen) {
+  .container {
+    width: @lg-container;
+  }
+}
+@media (min-width: @xl-screen) {
+  .container {
+    width: @xl-container;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: (@gutter / 2);
+  padding-right: (@gutter / 2);
+    
+}
+.full-screen-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-left: -(@gutter / 2);
+  margin-right: -(@gutter / 2);
+}

@@ -1,4 +1,4 @@
-/* Screen sizes */
+/* Break Points */
 /* Gutter sizes */
 /*Container Size is determined from variables with a gutter given based on the gutter variable */
 /* Container widths */
@@ -901,7 +901,4 @@
 .container-fluid:after,
 .row:after {
   clear: both;
-}
-* {
-  transition: 1.5s all;
 }

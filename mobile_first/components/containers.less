@@ -9,6 +9,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: (@gutter / 2);
+  padding-right: (@gutter / 2);
 }
 @media (min-width: @sm-screen) {
   .container {
@@ -40,6 +42,10 @@
 .full-screen-container {
   margin-right: auto;
   margin-left: auto;
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 .row {
   margin-left: -(@gutter / 2);
